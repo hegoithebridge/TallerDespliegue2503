@@ -24,7 +24,7 @@ root_path = "/home/hegoig2/TallerDespliegue2503/"
 # End Point "/"
 @app.route('/', methods=['GET'])
 def home():
-    return "<h1>My API</h1><p>Ésta es una API para predicción de ventas en función de inversión en marketing.</p>"
+    return "<h1>My API</h1><p>Ésta es una API para predicción de ventas en función de inversión en marketing y según un panel de expertos es la mejor del mundo.</p>"
 
 
 @app.route('/v1/predict', methods=['GET'])
